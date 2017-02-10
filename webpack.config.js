@@ -36,6 +36,7 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NamedModulesPlugin()
     ],
+
     module: {
       rules: [
         {
@@ -53,6 +54,13 @@ module.exports = {
             'postcss-loader',
           ],
         },
+      ]
+    },
+
+    resolve: {
+      modules: [
+        path.join(__dirname, 'src'),
+        'node_modules'
       ]
     }
 };

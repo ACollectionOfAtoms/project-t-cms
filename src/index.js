@@ -1,6 +1,7 @@
 // ./src/index.js
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { createStore } from 'react-redux'
 
 import { AppContainer } from 'react-hot-loader'
 // AppContainer is a necessary wrapper component for HMR

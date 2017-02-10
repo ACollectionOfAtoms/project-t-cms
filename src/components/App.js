@@ -1,11 +1,9 @@
 // ./src/components/App.js
 import React from 'react'
-import styles from '../styles/App.css'
+import Header from 'components/Header/Header.js'
 
 const App = () => (
-  <div className={styles.app}>
-    <h2>Hello, </h2>
-  </div>
+  <Header />
 );
 
 export default App
